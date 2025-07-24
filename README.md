@@ -1,2 +1,30 @@
-# Hangman-Game
-This is a terminal-based Hangman game built in Python. The player must guess the hidden word one letter at a time. Each incorrect guess reduces the number of lives and builds the hangman step-by-step using ASCII art. The game ends when the word is fully guessed or the hangman is complete.
+# 🕹️ Hangman Game in Python
+
+Welcome to the **Hangman Game**, a classic terminal-based word guessing game written in **Python**. You must guess the secret word letter by letter. Each wrong guess draws another part of the hangman — you only get 6 lives!
+
+---
+
+## ✨ Features
+
+- 🔠 Random word selection from a custom word list
+- 🧠 Tracks guessed letters to avoid repetition
+- 💀 6-lives countdown with ASCII-based hangman stages
+- 🎨 Visual feedback using ASCII art and custom logos
+- 📁 Modular code structure with separate files for clarity
+
+---
+
+## 📁 Folder Structure
+
+hangman_game/
+- hangman.py # Main game logic
+- hangman_words.py # List of words to guess from
+- hangman_art.py # ASCII stages of the hangman
+- hangman_logo.py # Game start, win, and game over banners
+
+---
+
+
+
+
+
